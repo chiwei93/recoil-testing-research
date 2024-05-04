@@ -6,8 +6,8 @@ import { RecoilCacheReset } from "./RecoilCacheReset";
 
 export async function customRender(
   element: ReactNode,
-  renderOptions: RenderOptions = {},
-  initialStates: AtomTuple[] = []
+  initialStates: AtomTuple[] = [],
+  renderOptions: RenderOptions = {}
 ) {
   function TestProvider({ children }: { children: ReactNode }) {
     return (
